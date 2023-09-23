@@ -33,7 +33,6 @@
             label_X = new Label();
             label_Y = new Label();
             ptr = new Label();
-            bt_clickTheLeftMouse = new Button();
             SuspendLayout();
             // 
             // label1
@@ -105,22 +104,11 @@
             ptr.Text = "poiner";
             ptr.Click += ptr_Click;
             // 
-            // bt_clickTheLeftMouse
-            // 
-            bt_clickTheLeftMouse.Location = new Point(17, 172);
-            bt_clickTheLeftMouse.Name = "bt_clickTheLeftMouse";
-            bt_clickTheLeftMouse.Size = new Size(94, 29);
-            bt_clickTheLeftMouse.TabIndex = 3;
-            bt_clickTheLeftMouse.Text = "button1";
-            bt_clickTheLeftMouse.UseVisualStyleBackColor = true;
-            bt_clickTheLeftMouse.MouseClick += bt_clickTheLeftMouse_MouseClick;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(bt_clickTheLeftMouse);
             Controls.Add(label_Y);
             Controls.Add(ptr);
             Controls.Add(bt_guessNum);
@@ -139,6 +127,5 @@
         private Label label_X;
         private Label label_Y;
         private Label ptr;
-        private Button bt_clickTheLeftMouse;
     }
 }

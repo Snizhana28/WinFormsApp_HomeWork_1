@@ -105,12 +105,5 @@ namespace WinFormsApp_HomeWork_1
             int y = MousePosition.Y;
             MessageBox.Show("x = " + x + " y = " + y);
         }
-
-        private void bt_clickTheLeftMouse_MouseClick(object sender, MouseEventArgs e)
-        {
-            
-
-
-        }
     }
 }
